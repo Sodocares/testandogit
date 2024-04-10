@@ -1,0 +1,34 @@
+programa {
+  funcao inicio() {
+
+real sal, imp
+caracter condic
+
+escreva("     Informe o valor do salï¿½rio: ")
+leia(sal)
+
+se (sal > 2326.01 )
+  condic = 'c'
+  senao
+  se (sal <= 1164)
+    condic = 'a'
+    senao
+    condic = 'b'
+
+escolha (condic){
+
+  caso 'a':
+  imp = 0
+ 
+  caso 'b':
+  imp = sal * 0.15
+ 
+  caso 'c':
+  imp = sal * 0.275
+
+}
+
+escreva("     Valor do imposto de renda:",imp)
+
+  }
+}
