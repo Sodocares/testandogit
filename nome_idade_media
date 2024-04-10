@@ -1,0 +1,30 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		cadeia nome, sobrenome
+		real idade, numeroum, numerodois, numerotres, media
+		
+	escreva ("Qual o seu nome?")
+	leia (nome)
+	escreva ("Qual o seu sobrenome?")
+	leia (sobrenome)
+	escreva ("Qual a sua idade em anos?(responda com apenas numeros"))
+	leia (idade)
+	escreva ("Fale um numero")
+	leia (numeroum)
+	escreva ("Fale mais um numero")
+	leia (numerodois)
+	escreva ("Diga o ultimo numero")
+	leia (numerotres)
+	
+	media=(numeroum + numerodois + numerotres)/3
+		
+	escreva ("Seu nome completo é ", nome, sobrenome
+	)	
+	escreva ("Sua idade é ", idade
+	)
+	escreva ("A media desses numeros é ", media)	
+		}
+}
