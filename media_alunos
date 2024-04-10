@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+    inteiro valor1, valor2
+    real media
+
+    escreva ("Digite o primeiro valor: ")
+    leia (valor1)
+    escreva("Digite o segundo valor: ")
+    leia(valor2)
+
+    media = (valor1 + valor2) / 2
+
+    se (media >= 60) 
+        escreva(media , " Parabens voce foi aprovado")
+    senao
+	    escreva(media , " Infelizmente voce foi reprovado")
+		
+	}
+}
